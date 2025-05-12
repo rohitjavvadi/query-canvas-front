@@ -26,3 +26,18 @@ export interface ChartData {
   data?: Record<string, unknown>;
   imageUrl?: string;
 }
+
+// Add icon type for consistent naming
+export type IconName = 
+  | 'arrow-right'
+  | 'arrow-left'
+  | 'arrow-up'
+  | 'arrow-down'
+  | 'menu'
+  | 'refresh-cw'
+  | 'upload'
+  | 'history'
+  | 'loader'
+  | 'chart-bar'
+  | 'message-square'
+  | 'loader-circle';

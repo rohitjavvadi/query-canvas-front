@@ -14,7 +14,7 @@ const ChartDisplay: React.FC<ChartDisplayProps> = ({ chartData, isLoading }) => 
     return (
       <Card className="w-full h-full flex items-center justify-center bg-card/50">
         <div className="flex flex-col items-center">
-          <Icon name="loader-circle" className="animate-spin h-10 w-10 text-muted-foreground mb-4" />
+          <Icon name="loader" className="animate-spin h-10 w-10 text-muted-foreground mb-4" />
           <p className="text-sm text-muted-foreground">Generating chart...</p>
         </div>
       </Card>
